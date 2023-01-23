@@ -1,0 +1,72 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    background-color: #FFFFE0;
+}
+
+#header{
+    width: 550px;
+    height: 80px;
+    margin-bottom: 20pt;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 40pt;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #81613C;
+    color: white;
+  }
+
+  li a:focus {
+      background-color: #814500;
+      color: white;
+  }
+  
+  #this-page{
+    background-color: #814500;
+    color: white;
+    
+}
+
+tr {
+    align-items: center;
+}
+
+th, td {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+.paras{
+    width: 50%;
+    display: table-cell;
+}
+
+footer {
+    margin-top: 21.5%;
+    bottom: 0;
+}
